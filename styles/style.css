@@ -1,62 +1,62 @@
-.blueBody{
+.blueBody {
     background-image: url("../img/Meehmt.png");
-    height: 900px;                                  /* Voor positionering van bg image */
+    height: 900px; /* Voor positionering van bg image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.redBody{
+.redBody {
     background-image: url("../img/meehmtred.png");
-    height: 900px;                                       /* Voor positionering van bg image */
+    height: 900px; /* Voor positionering van bg image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.mainBody{
+.mainBody {
     background-image: url("../img/redblue.png");
 
-    min-height: 900px;                                  /* Voor positionering van bg image */
+    min-height: 900px; /* Voor positionering van bg image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.title, .desc{
+.title, .desc {
     justify-content: center;
     display: flex;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
 }
 
-.title{
+.title {
     font-size: 3em;
 }
 
-.desc{
+.desc {
     font-size: 1.3em;
 }
 
-body{
+body {
     background-color: black;
     color: white;
 
 }
 
-.choice{
+.choice {
     display: flex;
     justify-content: space-around;
     width: 100%;
 
 }
 
-.choice img{
+.choice img {
     width: 35vw;
     min-width: 20em;
 }
 
-.blueMain{
+.blueMain {
     display: flex;
     justify-content: center;
     margin: 7vw 24vw 0 0;
@@ -64,21 +64,21 @@ body{
 
 }
 
-.blueButton{
+.blueButton {
     margin-right: 3vw;
     width: 14vw;
     font-size: 2.5vw;
     height: 10vw;
 }
 
-.returnBlueButton{
+.returnBlueButton {
     width: 14vw;
     font-size: 2.5vw;
     height: 10vw;
 
 }
 
-.redMain{
+.redMain {
     display: flex;
     justify-content: center;
     padding: 6vw 0 0 24vw;
@@ -86,26 +86,26 @@ body{
 
 }
 
-.redButton{
+.redButton {
     margin-right: 3vw;
     width: 14vw;
     font-size: 2.5vw;
     height: 10vw;
 }
 
-.returnRedButton{
+.returnRedButton {
     width: 14vw;
     font-size: 2.5vw;
     height: 10vw;
 
 }
 
-.catBody{
+.catBody {
     background-color: white;
     color: black;
     background-image: url("../img/catBG.jpg");
 
-                                     /* Voor positionering van bg image */
+    /* Voor positionering van bg image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,20 +114,20 @@ body{
 
 }
 
-.Images img{
+.Images img {
     width: 32%;
 
     margin: 5px;
 
 }
 
-.Images{
+.Images {
     flex-grow: 1;
     text-align: center;
     flex-wrap: wrap;
 }
 
-.Maya{
+.Maya {
     background-color: rgba(255, 255, 255, 0.7);
     font-size: 1.3em;
     font-family: 'Bebas Neue', cursive;
@@ -136,24 +136,24 @@ body{
 
 }
 
-.catBody header{
+.catBody header {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5em;
 
 }
 
-.Maya h2{
+.Maya h2 {
     font-size: 1.4em;
 }
 
-.regretButton{
+.regretButton {
     width: 10em;
     height: 4em;
 
 }
 
-.meehmtMain{
+.meehmtMain {
     display: flex;
     text-align: center;
     margin: 0 5%;
@@ -161,49 +161,49 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 
-.meehmtMain h3{
+.meehmtMain h3 {
     font-size: 1.4em;
 }
 
-.meehmtDesc p{
+.meehmtDesc p {
     text-align: left;
     font-size: 1.3em;
     margin: 1.1em 0;
 }
 
-.meehmtBio{
+.meehmtBio {
     width: 40vw;
-    background-color: rgba(255,0,0,0.9);
+    background-color: rgba(255, 0, 0, 0.9);
 }
 
-.meehmtBio img{
+.meehmtBio img {
     width: 30vw;
 }
 
-.meehmtDesc{
+.meehmtDesc {
     width: 60vw;
     margin-right: 5%;
 }
 
-.meehmtHeader{
+.meehmtHeader {
     text-align: center;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
     font-family: 'Bebas Neue', cursive;
 }
 
-.meehmtNav{
+.meehmtNav {
 
 }
 
-blockquote{
+blockquote {
     margin: 3% 0;
     font-size: 1.3em;
 }
 
-footer{
-    position: fixed;                                    /* Zorgt er voor dat de footer op een vaste positie blijft relatief aan het scherm */
-    bottom: 0;                                          /* Zorgt er voor dat de footer onderaan blijft */
+footer {
+    position: fixed; /* Zorgt er voor dat de footer op een vaste positie blijft relatief aan het scherm */
+    bottom: 0; /* Zorgt er voor dat de footer onderaan blijft */
 
 
 }
